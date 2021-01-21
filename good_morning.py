@@ -51,7 +51,7 @@ while adding:
             elif dayType == 'schoolday':
                 clipboard = str(schooldayTasks)
             elif dayType == 'weekend':
-                clipboard = str(weekdayTasks)
+                clipboard = str(weekendTasks)
 
             censor = '{\'}'
             for char in censor:
